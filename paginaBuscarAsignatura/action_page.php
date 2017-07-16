@@ -31,6 +31,7 @@
   </head>
 
   <body>
+<?php echo "ksjdfksdkk"; ?>
 
     <div class="container">
       <div class="header">
@@ -43,19 +44,11 @@
       </div>
 
       <div class="jumbotron">
-        <h1>Encuentra la ayudantía indicada: </h1>
-        <p class="lead">Un sensei te ayudará con todas las dudas que tengas y así puedas tener éxito en las primeras asignaturas de tu carrera.</p>
-        <p><form action="action_page.php">
-  <p><select name="temas">
-    <option value="calculo">Cálculo</option>
-    <option value="fisica">Física</option>
-    <option value="ingles">Inglés</option>
-    <option value="programacion">Programación</option>
-  </select>
-  <input type="submit"><br><br></p>
-
-</form></p>
+        <p class="lead"><?php echo $_GET["ingles"]; ?></p>
+        <p></p>
       </div>
+
+
 <!--
       <div class="row marketing">
         <div class="col-lg-6">
