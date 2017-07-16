@@ -28,10 +28,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+}
+
+</style>
   </head>
 
   <body>
-<?php echo "ksjdfksdkk"; ?>
+
 
     <div class="container">
       <div class="header">
@@ -44,8 +51,24 @@
       </div>
 
       <div class="jumbotron">
-        <p class="lead"><?php echo $_GET["ingles"]; ?></p>
+        <p class="lead"><?php echo $_GET["temas"]; ?></p>
         <p></p>
+
+        <table>
+  <colgroup>
+    <col span="3" style="background-color:#cceeff">
+  </colgroup>
+  <tr>
+    <td>Principiante</td>
+    <td>Juan Perez</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
       </div>
 
 
