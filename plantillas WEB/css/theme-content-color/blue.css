@@ -1,0 +1,75 @@
+::-moz-selection {
+  color: #fff;
+  background-color: #18BCF9;
+}
+
+::selection {
+  color: #fff;
+  background-color: #18BCF9;
+}
+
+.theme-color,
+.footer-primary .f-list a:hover,
+.footer-secondry .copyright a:hover,
+.footer-social a:hover,
+.btn-theme-border-color,
+.feature-box-1 .feature-box:hover i,
+.feature-box-3 .feature-box i,
+.feature-box-4 .feature-box .at-icon i,
+.team-1 .social a:hover,
+.team-2 .social a:hover,
+.icon-themeborder li i,
+.custom-ollist li:before,
+.custom-ollisborder li:before,
+.product-list .product-title a:hover,
+.widget-posts li a:hover,
+.widget-menu li a:hover,
+.widget-menu li a.active,
+.comment-item-data a:hover,
+.shopping-cart-table a:hover,
+.widget-comments li a:hover,
+.post-meta a:hover,
+.post-head .post-title a:hover {
+  color: #18BCF9;
+}
+
+.theme-bg,
+.menu > li > ul li a:hover,
+.alert-theme,
+.btn-dark-solid:hover,
+.btn-dark-solid:focus,
+.btn-mod.btn-theme-color,
+.btn-theme-border-color:hover,
+.btn-theme-border-color:focus,
+.btn-mod.btn-w:hover,
+.btn-mod.btn-w:focus,
+.btn-mod:hover,
+.btn-mod:focus,
+a.btn-mod:hover,
+a.btn-mod:focus,
+.tpl-minimal-tabs.tab-theme-navs > li > a:hover,
+.tpl-minimal-tabs.tab-theme-navs li.active a,
+.tpl-minimal-tabs.tab-theme-navs li.active a:hover,
+.accordion-1 .active .title:hover,
+.accordion-1 .active .title,
+.feature-box-4.feature-separator .separator,
+.price-3 .single-pricing .price,
+.icon-theme li i,
+.custom-ul li:before,
+.custom-ollistbg li:before,
+.product-list .product-image .product-label,
+.tags a:hover,
+.widget-handle .cart .label {
+  background-color: #18BCF9;
+}
+
+.btn-theme-border-color,
+.feature-box-3 .feature-box:hover,
+.dropcap-square.dropcap-border.theme-color,
+.dropcap-circle.dropcap-border.theme-color,
+.price-3 .single-pricing .price-wrapper,
+.icon-themeborder li i,
+.custom-ollisborder li:before,
+.tags a:hover {
+  border-color: #18BCF9;
+}
